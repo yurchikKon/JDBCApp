@@ -10,7 +10,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-@Component
+@Repository
 public class DepartmentRepositoryImpl implements DepartmentRepository {
 
     private static final String UPDATE_QUERY = "update department\n" +
